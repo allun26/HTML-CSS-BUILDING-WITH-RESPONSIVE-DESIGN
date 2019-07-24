@@ -6,6 +6,9 @@
 
 /* Navbar styling */
 .navbar {
+    -webkit-box-shadow: 0px 6px 5px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 5px -3px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 5px -3px rgba(0,0,0,0.35);
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -111,10 +114,59 @@ padding-right: 10px;
     margin: 10px;
 }
 
+.top-content p, h1, h2, i {
+    color: white;
+    font-family: sans-serif;
+}
+
+.top-content h1 {
+    font-size: 143.6px;
+    letter-spacing: 14.36px;
+    line-height: 143.6px;
+}
+
 #firstInsight {
     background: linear-gradient(to bottom right, red,rgba(255, 0, 0, 0.726), black, black ,rgb(1, 1, 105)););
     grid-row: 1 / span 2;
-    margin-left: 
+    padding-left: 15px;
+}
+
+.FIP {
+    clear: both;
+    font-size: 14.4px;
+    line-height: 14.4px;
+    text-align: start;
+}
+
+.FIH2 {
+    clear: both;
+    font-size: 46px;
+    line-height: 46px;
+    position: relative;
+    top: 45%;
+}
+
+.FIDate {
+    float: right;
+    font-size: 14.4px;
+    line-height: 14.4px;
+    margin: 15px;
+}
+
+.FITitle {
+    float: left;
+}
+
+.FIAuthor {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 46.5%;
+}
+
+.FIAPadding {
+    color: lightgray !important;
+    padding: 0 3px;
 }
 
 #secondInsight {
@@ -126,6 +178,8 @@ padding-right: 10px;
     background-color: aqua;
     background-image: url();
 }
+
+
 
 @media (max-width: 1024px) and (min-width: 768px) {
 
@@ -150,6 +204,14 @@ padding-right: 10px;
 
     .top-content {
         grid-template-rows: 183px 183px;
+    }
+
+    .FITitle {
+        display: none;
+    }
+
+    .FIDate {
+        display: none;
     }
 }
 
@@ -197,6 +259,14 @@ padding-right: 10px;
 
     #firstInsight {
         grid-row: 1 / span 1;
+    }
+
+    .FITitle {
+        display: none;
+    }
+
+    .FIDate {
+        display: none;
     }
     
 }
