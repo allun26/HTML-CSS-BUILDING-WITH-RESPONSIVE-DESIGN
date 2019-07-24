@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar styling*/
+.navbar {
+    background-color: blue;
+    clear: both;
+    height: 80px;
+    }
+
+.navTop {
+    background-color: black;
+    clear:both;
+    height: 33px;
+    }
+
+#tnw1, #tnw2 {
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+    .navbar {
+        background-color: red;
+        height: 80px;
+    }
+
+    .navTop {
+        background-color: black;
+        height: 33px;
+    }
+
+    #tnw1 {
+        display: block;
+        float: left;
+        height: 80px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: red;
+        height: 50px;
+    }
+
+    .navTop {
+        display: none;
+        height: 33px;
+    }
+    #tnw2 {
+        display: block;
+        float: left;
+        height: 50px;
+        width: 100px;
+    }
+}
