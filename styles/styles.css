@@ -170,14 +170,14 @@ padding-right: 10px;
 }
 
 #secondInsight {
-    background-color: salmon;
+    background: linear-gradient(rgba(0, 0, 0, 0.863),rgb(165, 91, 42),rgba(0, 0, 0, 0.863));
     align-content: flex-end;
     display: grid;
     padding: 20px;
 }
 
 #thirdInsight {
-    background-color: aqua;
+    background: linear-gradient(rgba(0, 0, 0, 0.863),rgb(1, 1, 105),rgba(0, 0, 0, 0.863));
     align-content: flex-end;
     display: grid;
     padding: 20px;
@@ -192,7 +192,6 @@ padding-right: 10px;
 .authorLeft {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
 }
 
 
@@ -237,6 +236,11 @@ padding-right: 10px;
 
     .FIAuthor {
         top: 58%;
+    }
+
+    .titleInsight {
+        font-size: 19px;
+        line-height: 19px;
     }
 }
 
@@ -299,11 +303,24 @@ padding-right: 10px;
     .FIH2 {
         font-size: 19px;
         line-height: 19px;
-        margin-bottom: 10px;
+        margin-left: 7px;
     }
 
     .FIAuthor {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        margin-left: 7px;
+    }
+
+    .titleInsight {
+        font-size: 19px;
+        line-height: 19px;
     }
     
 }
+
+
+/*
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-gap: 20px;
+*/
