@@ -240,6 +240,12 @@ main {
     width: 273px;
 }
 
+.subwellArticle {
+    background-color: #fffaf8;
+    height: 400px;
+    width: 270px;
+}
+
 .latestFunding {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
@@ -256,6 +262,15 @@ main {
     float: left;
 }
 
+.fundingLinks h2 a {
+    color :#ff3300;
+    font-size: 25.6px;
+    grid-column: 1/ -1;
+    line-height: 25.6px;
+    text-align: start;
+    text-decoration: none;
+}
+
 .fundingLinks ul li {
     display: inline;
     float: right;
@@ -267,11 +282,11 @@ main {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
     height: 96px;
+    text-decoration: none;
     width: 270px;
 }
 
 .grid-link img {
-    background-color: blue;
     height: 60px;
     margin-left: 10px;
     margin-top: 10px;
@@ -279,19 +294,70 @@ main {
 }
 
 .firstP {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
     grid-column: 2 / span 2;
-    grid-row: 1; 
+    grid-row: 1;
+    line-height: 18px;
+    margin-left: -5px;
     margin-top: 10px;
 }
 
 .secondP {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-left: -5px;
+    margin-top: -20px;
     grid-column: 2 / span 2;
     grid-row: 2; 
 }
 
 .thirdP {
+    color: black;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    margin-left: -5px;
+    margin-top: -15px;
+    opacity: 0.6;
     grid-column: 2 / span 2;
     grid-row: 3; 
+}
+
+.pharmaLink1 {
+    color: #555555;
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.pharmaLink2 {
+    border-bottom: 1px solid rgb(255,68,34, 0.3); 
+    color: #555555;
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.seriesALink {
+    color: #555555;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.seriesALink span {
+    color: #aaaaaa;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
