@@ -385,9 +385,10 @@ main {
     color: #aaaaaa;
 }
 
+/* Apps, Gear, Tech section */
 .subjects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(378px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(370px,1fr));
     column-gap: 20px;
     margin-top: 66px;
     padding: 20px;
@@ -396,6 +397,47 @@ main {
 .categories {
 
 }
+
+.back-img {
+    background-image: url("/images/back-img.png");
+    height: 275px;
+}
+
+.backGradient {
+    align-content: flex-end;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 0%, rgba(0,0,0,0.57) 39%, rgba(0,0,0,0.78) 69%, rgba(0,0,0,1) 100%);
+    display: grid;
+    height: 275px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.back-img-p {
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.back-img-a1 {
+    color: white;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.back-img-a2 {
+    color:grey;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#womanDancing {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
 
 @media (max-width: 1024px) and (min-width: 768px) {
 
@@ -460,6 +502,7 @@ main {
         float: none;
     }
 
+/* Apps, Gear, Tech section */
 
 
    
@@ -553,6 +596,8 @@ main {
     }
 
     .latestNewsFig img {
+        object-fit: cover;
+        object-position: right bottom;
         height: 75px;
         margin-right: 20px;
         width: 75px;
