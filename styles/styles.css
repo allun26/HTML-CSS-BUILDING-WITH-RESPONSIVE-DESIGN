@@ -242,14 +242,13 @@ main {
 
 .subwellArticle {
     background-color: #fffaf8;
-    height: 400px;
-    width: 270px;
+    /* max-width: 270px; */
 }
 
 .latestFunding {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(231px,1fr));
+    column-gap: 20px;
     margin-top: 66px;
     padding: 20px;
 }
@@ -260,6 +259,7 @@ main {
 
 .fundingLinks h2 {
     float: left;
+    padding-bottom: 25px;
 }
 
 .fundingLinks h2 a {
@@ -271,9 +271,24 @@ main {
     text-decoration: none;
 }
 
+.fundingLinks ul {
+    float: right;
+    margin-top: 10px
+}
+
 .fundingLinks ul li {
     display: inline;
-    float: right;
+}
+
+.fundingLinks ul li a {
+    color: rgb(255,68,34);
+    text-decoration: none;
+}
+
+#fundingListMiddle {
+    border-left: 1px solid rgb(255,68,34);
+    border-right: 1px solid rgb(255,68,34);
+    padding: 0 5px;
 }
 
 .grid-link {
@@ -282,8 +297,8 @@ main {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
     height: 96px;
+    /* max-width: 270px; */
     text-decoration: none;
-    width: 270px;
 }
 
 .grid-link img {
@@ -327,12 +342,20 @@ main {
     grid-row: 3; 
 }
 
+.fa-tag {
+    color: black;
+}
+
+.fa-suitcase {
+    color: black;
+}
+
 .pharmaLink1 {
     color: #555555;
     display: block;
     font-size: 13px;
     line-height: 22px;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 20px;
     text-decoration: none;
 }
@@ -344,15 +367,17 @@ main {
     font-size: 13px;
     line-height: 22px;
     padding-bottom: 15px;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 5px;
     text-decoration: none;
 }
 
 .seriesALink {
     color: #555555;
+    display: block;
     font-size: 12px;
     line-height: 20px;
+    padding: 20px;
     text-decoration: none;
 }
 
@@ -407,7 +432,12 @@ main {
         line-height: 19px;
     }
 
-    /* Main */
+    /* Main Latest funding*/
+
+    #subwellLastArticle {
+        display: none;
+    }
+
 
 
    
@@ -515,5 +545,9 @@ main {
         line-height: 18px;
     }
 
-}
+    /* Main Latest funding*/
 
+    #subwellLastArticle {
+        display: none;
+    }
+}
