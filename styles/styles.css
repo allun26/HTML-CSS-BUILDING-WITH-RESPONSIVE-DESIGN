@@ -397,6 +397,19 @@ main {
 .categories {
 
 }
+.subjects h2 {
+    grid-column: 1 / -1;
+    margin-bottom: 15px;
+}
+
+.subjects h2 a {
+    color: #ff4422;
+    text-decoration: none;
+}
+
+.subjects h2 a:hover {
+    color:black;
+}
 
 .back-img {
     background-image: url("/images/back-img.png");
@@ -422,19 +435,46 @@ main {
 .back-img-a1 {
     color: white;
     font-size: 20px;
+    font-weight: bold;
     line-height: 22px;
+    margin-bottom: 5px;
     text-align: left;
+    text-decoration: none;
 }
 
 .back-img-a2 {
     color:grey;
     font-size: 12px;
     line-height: 16px;
+    text-decoration: none;
+}
+
+.img-2 {
+    background-color:rgb(255,68,34, 0.06);
+    height: 100px;
+    padding-left: 10px;
+}
+
+.img-2 p {
+    color: #ff4422;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.img-2 a {
+    color: #ff4422;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    height: 34px;
+    width: 244px;
+    text-decoration: none;
 }
 
 #womanDancing {
-    object-fit: cover;
     height: 100px;
+    float: right;
+    object-fit: cover;
     width: 100px;
 }
 
