@@ -198,10 +198,8 @@ padding-right: 10px;
 /* Main */
 
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
-    max-width: 1192px;
+    max-width: 1200px;
 }
 
 .latestNews {
@@ -212,16 +210,32 @@ main {
     padding: 20px
 }
 
+.latestNewsFig figcaption {
+    width: 270px;
+}
+
 .latestNews h2 {
     color :#ff3300;
     font-size: 25.6px;
+    grid-column: 1/ -1;
     line-height: 25.6px;
     text-align: start;
 }
 
-.latestNews img {
-    display: grid;
-    grid-gap: 10px;
+.LatestNewsTitle {
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.latestNewsAuthor {
+    color: #aaaaaa;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 3px;
+}
+
+.latestNewsFig img {
     height: 135px;
     width: 273px;
 }
@@ -275,10 +289,8 @@ main {
 
     /* Main */
 
-    main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    }
+
+   
 }
 
 @media (max-width: 768px) {
