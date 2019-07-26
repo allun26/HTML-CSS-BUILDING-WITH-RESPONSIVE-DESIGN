@@ -591,6 +591,26 @@ main {
     padding: 10px;
 }
 
+.fa-feed {
+    padding: 10px 10px 10px 15px
+}
+
+.fa-pinterest {
+    padding: 10px 11px;
+}
+
+.fa-instagram {
+    padding: 10px 11px;
+}
+
+.fa-youtube {
+    padding: 10px 11px;
+}
+
+.fa-facebook-square {
+    padding: 10px 11px;
+}
+
 .footer-icon:hover {
     background-color: #131313;
 }
@@ -850,6 +870,10 @@ main {
 
     .latestFunding {
         grid-template-columns: 1fr;
+    }
+
+    .footerIconsList li {
+        margin: 2px;
     }
     
 }
