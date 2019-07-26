@@ -535,6 +535,33 @@ main {
     line-height: 20px;
     text-decoration: line-through;
 }
+
+/* Footer */
+
+.footerTop {
+    background-color: #131313;
+    height: 161px;
+}
+
+.footerBottom {
+    background-color: black;
+    height: 97px;
+}
+
+.footerIconsList li {
+    display: inline;
+}
+
+.fa-facebook {
+    color: white;
+    font-size: 20px;
+}
+
+.fa-instagram {
+    color: white;
+    font-size: 40px;
+}
+
 @media (max-width: 1024px) and (min-width: 768px) {
 
     /* Nav bar styling */
