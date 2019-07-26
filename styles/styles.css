@@ -204,7 +204,7 @@ main {
 
 .latestNews {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(229px,1fr));
     grid-gap: 20px;
     margin-top: 66px;
     padding: 20px
@@ -522,6 +522,19 @@ main {
     color: black;
 }
 
+.dealPrice {
+    color: #555555;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+.dealPrice span {
+    color: #aaaaaa;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: line-through;
+}
 @media (max-width: 1024px) and (min-width: 768px) {
 
     /* Nav bar styling */
@@ -567,6 +580,28 @@ main {
     .titleInsight {
         font-size: 19px;
         line-height: 19px;
+    }
+
+    /* Main Latest news */
+
+    .latestNewsTitle {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .latestNewsAuthor {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .dealPrice {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .dealPrice span {
+        font-size: 12px;
+        line-height: 18px;
     }
 
     /* Main Latest funding*/
@@ -692,6 +727,22 @@ main {
     
     .latestNewsTitle {
         font-size: 14px;
+        line-height: 18px;
+    }
+
+    
+    .latestNewsAuthor {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .dealPrice {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .dealPrice span {
+        font-size: 12px;
         line-height: 18px;
     }
 
