@@ -635,3 +635,245 @@ main {
     color: white;
 }
 
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    /* Nav bar styling */
+    .navbar {
+        height: 80px;
+    }
+
+    .navTop {
+        background-color: black;
+        height: 33px;
+    }
+
+    #tnw1 {
+        display: block;
+        float: left;
+        height: 80px;
+        width: 100px;
+    }
+
+    /* Top Content Styling */
+
+    .top-content {
+        grid-template-rows: 183px 183px;
+    }
+
+    .FITitle {
+        display: none;
+    }
+
+    .FIDate {
+        display: none;
+    }
+
+    .FIH2 {
+        font-size: 34px;
+        top: 56%;
+    }
+
+    .FIAuthor {
+        top: 58%;
+    }
+
+    .titleInsight {
+        font-size: 19px;
+        line-height: 19px;
+    }
+
+    /* Main Latest news */
+
+    .latestNewsTitle {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .latestNewsAuthor {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .dealPrice {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .dealPrice span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* Main Latest funding*/
+
+    #subwellLastArticle {
+        display: none;
+    }
+
+    .fundingLinks ul {
+        float: left;
+        margin-bottom: 20px;
+        margin-top: -17px;
+    }
+
+    .fundingLinks h2 {
+        float: none;
+    }
+
+/* Apps, Gear, Tech section */
+
+
+   
+}
+
+@media (max-width: 768px) {
+
+    /* Navbar styling */
+    .navbar {
+        height: 50px;
+    }
+
+    .navTop {
+        display: none;
+        height: 33px;
+    }
+
+    .navBottom {
+        padding-left: 0;
+    }
+
+    .navBottom ul {
+        display: none;
+    }
+
+    #tnw2 {
+        display: block;
+        float: left;
+        height: 50px;
+        width: 100px;
+    }
+
+    .fa-align-justify:before {
+        border-left: 1px solid #aaaaaa;
+        color: #aaaaaa;
+        cursor: pointer;
+        display: block;
+        padding: 15px 20px;
+    }
+
+    /* Top Content Styling */
+
+    .top-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 183px 183px 183px;
+    }
+
+    #firstInsight {
+        align-content: flex-end;
+        display: grid;
+        grid-row: 1 / span 1;
+    }
+
+    .FITitle {
+        display: none;
+    }
+
+    .FIDate {
+        display: none;
+    }
+
+    .FIH2 {
+        font-size: 19px;
+        line-height: 19px;
+        margin-left: 7px;
+    }
+
+    .FIAuthor {
+        margin-bottom: 40px;
+        margin-left: 7px;
+    }
+
+    .titleInsight {
+        font-size: 19px;
+        line-height: 19px;
+    }
+    /* Main Styling */
+
+    .latestNews {
+        display: block;
+    }
+
+    .latestNews h2 {
+        margin-bottom: 20px;
+    }
+
+    .latestNewsFig {
+        display: flex;
+        flex-direction: row;
+        margin: 7px 0;
+    }
+
+    .latestNewsFig img {
+        object-fit: cover;
+        object-position: right bottom;
+        height: 75px;
+        margin-right: 20px;
+        width: 75px;
+    }
+
+    .latestNewsFig figcaption {
+        width: 500px;
+    }
+    
+    .latestNewsTitle {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    
+    .latestNewsAuthor {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .dealPrice {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .dealPrice span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* Main Latest funding*/
+
+    #subwellLastArticle {
+        display: none;
+    }
+
+    .fundingLinks ul {
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 100px;
+    }
+
+    .fundingLinks ul li {
+        display: block;
+        font-size: 14px;
+    }
+
+    #fundingListMiddle {
+        border: none;
+        padding:  10px 0;
+    }
+
+    .latestFunding {
+        grid-template-columns: 1fr;
+    }
+
+    .footerIconsList li {
+        margin: 2px;
+    }
+    
+}
