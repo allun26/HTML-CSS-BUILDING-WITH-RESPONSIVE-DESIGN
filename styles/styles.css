@@ -539,27 +539,80 @@ main {
 /* Footer */
 
 .footerTop {
+    align-items: center; 
     background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 161px;
 }
 
 .footerBottom {
+    align-items: center;
     background-color: black;
+    display: flex;
+    justify-content: center;
     height: 97px;
+}
+
+.footerBottom span {
+    color: red;
+}
+
+.footerBottom p {
+    color: #aaaaaa;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.footer-logo {
+    height: 9px;
+    margin-right: 3px;
+    width: 37px;
+}
+
+.img-footer {
+    height: 9px;
+    margin-left: 3px;
+    width: 65px;
 }
 
 .footerIconsList li {
     display: inline;
-}
-
-.fa-facebook {
-    color: white;
     font-size: 20px;
+    margin: 5px;
 }
 
-.fa-instagram {
+.footer-icon {
+    background-color: #333333;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    color:white;
+    padding: 10px;
+}
+
+.footer-icon:hover {
+    background-color: #131313;
+}
+
+.footerTopLinks  {
+    margin-top: 20px;
+}
+
+.footerTopLinks li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.footerTopLinks li a {
+    color: #555555;
+    font-size: 12px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footerTopLinks li a:hover {
     color: white;
-    font-size: 40px;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
