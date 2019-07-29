@@ -14,6 +14,10 @@
     display: flex;
     flex-direction: row;
     height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 #navContainer {
@@ -112,7 +116,7 @@ padding-right: 10px;
     grid-row-gap: 10px;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 243px 243px;
-    margin: 10px;
+    margin: 90px 10px 10px 10px;
 }
 
 .top-content p, h1, h2, i {
@@ -127,7 +131,7 @@ padding-right: 10px;
 }
 
 #firstInsight {
-    background: linear-gradient(to bottom right, red,rgba(255, 0, 0, 0.726), black, black ,rgb(1, 1, 105));
+    background: linear-gradient(to bottom right, red,rgba(255, 0, 0, 0.25), black, black ), url("/images/img-1.png");
     grid-row: 1 / span 2;
     padding-left: 15px;
 }
@@ -171,15 +175,15 @@ padding-right: 10px;
 }
 
 #secondInsight {
-    background: linear-gradient(rgba(0, 0, 0, 0.863),rgb(165, 91, 42),rgba(0, 0, 0, 0.863));
     align-content: flex-end;
+    background: linear-gradient(to bottom right, red,rgba(255, 0, 0, 0.25), black, black ), url("/images/img-2.jpg");
     display: grid;
     padding: 20px;
 }
 
 #thirdInsight {
-    background: linear-gradient(rgba(0, 0, 0, 0.863),rgb(1, 1, 105),rgba(0, 0, 0, 0.863));
     align-content: flex-end;
+    background: linear-gradient(to bottom right, red,rgba(255, 0, 0, 0.25), black, black ), url("/images/img-3.jpg");
     display: grid;
     padding: 20px;
 }
